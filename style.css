@@ -1,0 +1,162 @@
+/*top*/
+/* TOPIC COLOR*/
+h{color: rgb(133, 16, 201) !important;}
+
+.line{
+  display: block;
+  width: auto;
+  height: 2px;
+  background:rgb(206,196,196,.25);
+  margin: 20px auto;
+  flex-wrap: wrap;}
+
+.line2{
+  display: block;
+  width: auto;
+  height: 2px;
+  background:rgb(133, 16, 201);
+  margin: 20px auto;
+  flex-wrap: wrap;}
+
+/* LINKS CON */
+.lin{
+  list-style-type: none;
+  background-color: #ffffff;
+  padding: 5px;
+  width: 100%;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  align-items: center;
+  margin: 1px 6px 1px 6px;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;}
+
+ /* A LINK */  
+a{color: rgb(131, 123, 131);
+  text-decoration: none;
+  font-size: 1.2em;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: 500;
+  display:inline;
+  font-weight: normal;}
+
+.lin a:hover {
+    color: rgb(133, 16, 201);}
+
+h4{line-height:0.1px;}
+  
+ps{color: rgb(133, 16, 201);}
+
+h1,h3,h4{font-weight: normal;}
+
+/* both side  */
+.section{ /* why alligment diffrent if used container class? */
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center !important;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+  padding-right: 90px;
+  padding-left: 90px;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;;
+}
+
+/* left*/
+img {
+    border-radius: 50%;
+    margin: 10px; ;}
+
+#left {
+  float: left;
+  width: 40%;
+  text-align: center;
+  flex-wrap: wrap;
+  height: 100%;
+  border-right: 1px solid rgb(221, 214, 214);  
+  color: black;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;;
+  font-weight: normal;
+  align-items: center;
+}
+
+#right{
+  position: relative;
+  float: right;
+  width: 50%;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  color: black;
+  flex: 1 ;
+
+}
+
+  
+#pad{padding-left :10px ;
+
+  display: inline-block;
+padding-right: 40px;}
+
+#footer{
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+/*BORDERS*/
+
+@media (max-width: 1000px ){
+  #left, #right {
+    width: 100%;
+    float: none;
+    text-align: center;
+    border-right: none;
+    padding-bottom: 0px;}
+
+#right{
+  display: inline-block;
+
+    border-top: 1px solid rgb(226, 220, 220);
+}}
+
+h2{font-size: 35px;
+font-weight: normal;
+color: grey;
+display: inline-block;
+text-align: center, !important;
+align-items: center, !important;}
+
+
+t1{ display: flex;
+  flex-wrap: wrap;
+  padding: 5px;}
+
+t2{display: flex; 
+  flex-wrap: wrap;
+  padding: 5px;}
+
+t3{display: flex;
+  padding: 5px;
+  flex-wrap: wrap;}
+
+
+lh{ font-family: normal !important;
+  color: rgb(133, 16, 201) !important;}
+
+ 
+e{color: gray;}
+
+ll{text-align: left;}
+
+progress{
+  display: flex; /*stoppend working*/
+  width: 30vw}
+
+/* footer   */
+#footer{text-align: center;
+    padding: 1rem;
+    
+}
